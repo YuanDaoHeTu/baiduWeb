@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>开始感受JS的乐趣</title>
+    <link rel="stylesheet" href="">
+    <style>
+        h1{font-size:50px;text-align:center;}
+        .name{text-indent:2em;font-size:20px;font-weight:normal;color:blue}
+        a{font-style:italic}
+        .a{font-weight:bold}
+        .b{text-indent:2em;color:blue}
+    </style>
+
+
+</head>
+<body>
+    <h1>简历</h1>
+    
+    <h2>
+        姓名
+        <p class="name">小明</p>
+    </h2>
+    <h2>联系方式</h2>
+    <h2>个人博客</h2>
+    <a href="https://yuandaohetu.github.io">远道河图</a>
+    <h2>项目经验</h2>
+    <p class="a">项目A</p>
+    <p class="b">。。。。。。。。。</p>
+    <p class="a">项目B</p>
+    <p class="b">。。。。。。。。。</p>
+    <!-- <input class="bottom" type="button" value="附加按钮"> -->
+    <button type="button" id="bottom" onclick="aa()" >附加按钮</button>
+    <p id="habbit">爱好</p>
+    <script>
+        function aa() {
+            document.getElementById('habbit').innerHTML = "我的爱好是。。。。。";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进制</title>>
+</head>
+<body>
+    <input id="dec-number" type="number" placeholder="输入十进制正整数">
+    <button id="trans" onclick="myFunction()">转化为二进制</button>>
+    <p id="result">结果</p>
+    <script>
+        for(var m=1;m<100;m++){
+            var str = "";
+            var arr = [];
+            document.createElement("tr");
+            for(var n=1;n<=m;n++){
+                str = str=i+"*"+j+"="+i*j;
+                arr.push(str);
+                document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML=arr[n-1];
+            }
+            var table = document.getElementsByTagName("table");
+            table.appendChild(tr);
+        }
+    </script>
+    <!-- <script>
+        // 3的小游戏
+        for(var i=1,j;i<101;i++){
+            j = i;
+            if(i%3==0){
+                j = "pa";
+            }
+            console.log(j);
+        }
+    </script> -->
+    <!-- <script>
+        //问候
+        var time = new Date();
+        var d = time.getHours();
+        document.getElementById("demo").innerHTML= d;
+        if(d>=5&d<11){
+            alert("good morning");
+        }else if(d>=11&d<18){
+            alert("good afternoon");
+        }else{
+            alert("good evening");
+        }
+    </script> -->
+</body>
+</html>

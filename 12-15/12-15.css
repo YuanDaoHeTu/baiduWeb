@@ -1,0 +1,480 @@
+*{
+    margin: 0; padding:0;
+}
+body{
+    height: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 100px;
+    height: 100%;
+}
+#left .left_top{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(29,37,49);
+}
+#left .round{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+#left .round1{
+    background: rgb(32,151,239);
+}
+#left .round2{
+    background: rgb(147,125,228);
+}
+#left .round3{
+    background: rgb(231, 46, 13);
+}
+#left .round4{
+    border: 2px rgb(45,56,72) solid;
+}
+#left .round div{
+    width: 26px;
+    height: 26px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+#left .round .pic1{
+    background-image: url("../image/12-15/images/blue.png");
+}
+#left .round .pic2{
+    background-image: url("../image/12-15/images/purple.png");
+}
+#left .round .pic3{
+    background-image: url("../image/12-15/images/red.png");
+}
+#left .round .pic4{
+    background-image: url("../image/12-15/images/add.png");
+}
+#left .left_bottom{
+    background-color: rgb(29,37,49);
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+#left .left_bottom div{
+    width: 20px;
+    height:20px;
+    margin: 0 12px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#left .left_bottom .apply{
+    background-image: url("../image/12-15/images/apply.png");
+}
+#left .left_bottom .setting{
+    background-image: url("../image/12-15/images/setting.png");
+}
+
+#middle{
+    height: 100%;
+    width: 280px;
+}
+#middle .bigbox{
+    background: rgb(34, 44, 60);
+    width: 260px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    padding-right: 20px;
+}
+#middle .bigbox .navigation{
+    margin: 10px 0 20px 20px;
+    color: rgb(179, 184, 192);
+    font-size: 12px;
+}
+#middle .bigbox .navigation:nth-of-type(2),
+#middle .bigbox .navigation:nth-of-type(3){
+    border-top: 1px rgb(50, 64, 87) solid;
+}
+
+#middle .bigbox .navigation .dir .directory{
+    display: inline-block;
+    width: 200px;
+    color: rgb(88, 100, 118);
+    font-weight: bold;
+    margin: 20px 0;
+}
+#middle .bigbox .navigation .dir .setting{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../image/12-15/images/setting.png");
+    background-repeat: no-repeat;
+}
+#middle .bigbox .navigation p{
+    margin-bottom: 10px;
+}
+#middle .bigbox .tips p:hover,
+#middle .bigbox .mid .mid_content:hover{
+    color: white;
+    cursor:pointer;
+    border-left: 3px rgb(35,150,234) solid;
+    
+}
+#middle .bigbox .mid .mid_content p{
+    display: inline-block;
+}
+#middle .bigbox .mid .mid_content .pic{
+    
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background: 100% no-repeat;
+
+}
+#middle .bigbox .mid .content .books{
+    background-image: url("../image/12-15/images/book.png");
+}
+#middle .bigbox .mid .content .tutorials{
+    background-image: url("../image/12-15/images/tutorial.png")
+}
+#middle .bigbox .mid .content .stocks{
+    background-image: url("../image/12-15/images/stock.png");
+}
+#middle .bigbox .mid .content .infographics{
+    background-image: url("../image/12-15/images/infographic.png");
+}
+
+#right{
+    width: auto;
+    height: 100%;
+
+}
+#right .top{
+    width: 1140px;
+    height: 100%;
+    border-bottom: 1px rgb(238,240,242) solid;
+}
+#right .top .boxes{
+    display: inline-block;
+}
+#right .top .title{
+    width: 900px;
+    font-size: 20px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 10px;
+}
+#right .top .pic{
+    width: 40px;
+    height: 40px;
+    background-image: url("../image/12-15/images/user.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+#right .top .introduce .name{
+    color: rgb(102,170,220);
+}
+#right .top .introduce .admin{
+    color: rgb(209, 209, 209);
+    font-size: 12px ;
+}
+#right .left{
+    width: 35%;
+    height: 100%;
+    float: left;
+
+}
+#right .left .search{
+    height: 50px;
+    border: 1px rgb(238,240,242) solid;
+}
+#right .left .search input{
+    width: 80%;
+    height: 20px;
+    margin: 12px 0 0 35px;
+    border-radius: 10px;
+}
+#right .left .search div{
+    width: 15px;
+    height: 15px;
+    background-image: url("../image/12-15/images/search.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 710px;
+    top: 65px;
+    display: block;
+}
+#right .left .user{
+    height: 16.6%;
+    border: 1px rgb(238,240,242) solid;
+}
+#right .left .user:hover{
+    border-left: 3px rgb(35,150,234) solid;
+}
+#right .left .user .profele_photo{
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin: 10px 20px 0 30px;
+}
+#right .left .user .pic1{
+    background-image: url("../image/12-15/images/Face1.png");
+}
+#right .left .user .pic2{
+    background-image: url("../image/12-15/images/Face2.png");
+}
+#right .left .user .pic3{
+    background-image: url("../image/12-15/images/Face3.png");
+}
+#right .left .user .pic4{
+    background-image: url("../image/12-15/images/Face4.png");
+}
+#right .left .user .pic5{
+    background-image: url("../image/12-15/images/Face5.png");
+}
+#right .left .user .pic6{
+    background-image: url("../image/12-15/images/Face6.png");
+}
+#right .left .user .introduce  {
+    display: inline-block;
+    width: 55%;
+    margin-top: 10px;
+}
+#right .left .user .introduce .name{
+    color: rgb(102,170,220);
+}
+#right .left .user .introduce .app{
+    color: rgb(192, 188, 188);
+    font-size: 12px ;
+}
+#right .left .user .time{
+    display: inline-block;
+    width: 70px;
+    font-size: 14px;
+    color: rgb(132, 147, 168);
+}
+#right .left .user p{
+    width: 330px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: rgb(59, 63, 70);
+    margin: 7px 0 7px 30px;
+}
+#right .right{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+#right .move{
+    padding-left: 20px;
+}
+#right .control{
+    width: 100%;
+    height: 50px;
+    border: 1px rgb(238,240,242) solid;
+}
+#right .control .friend{
+    width:45%;
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    font-weight: bold;
+    color: rgb(111, 114, 119);
+}
+#right .control .tool{
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    border: 1px rgb(179, 184, 192) solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: rgb(248, 249, 251);
+}
+#right .control .icon{
+    width: 25px;
+    height: 30px;
+    background-size: 100;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 5px 0 0 5px;
+}
+#right .control .tool .user{
+    background-image: url("../image/12-15/images/user\ icon.png");
+}
+#right .control .tool .upload{
+    background-image: url("../image/12-15/images/uploadicon.png");
+}
+#right .control .tool .trash{
+    background-image: url("../image/12-15/images/trash.png");
+}
+#right .control .page{
+    width: 43px;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(111, 114, 119);
+    position: relative;
+    bottom: 8px;
+    left:20px;
+    border-left: 1px rgb(179, 184, 192) solid;
+    border-right: 1px rgb(179, 184, 192) solid;
+}
+#right .control .last_next{
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    border: 1px rgb(179, 184, 192) solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 37px;
+    background: rgb(248, 249, 251);
+}
+#right .control .last_next .icon{
+    width: 15px;
+    height: 15px;
+    margin: 10px 0 0 13px;
+}
+#right .control .last_next .last{
+    background-image: url("../image/12-15/images/lastone.png");
+}
+#right .control .last_next .next{
+    background-image: url("../image/12-15/images/nextone.png");
+}
+#right .name{
+    font-size: 14px;
+    color: rgb(111, 114, 119);
+    font-weight: bold;
+    display: inline-block;
+}
+#right .time{
+    font-size: 12px;
+    color: rgb(179, 170, 170);
+    display: inline-block;
+}
+#right p{
+    width: 650px;
+    font-size: 10px;
+    color: rgb(127,131,139);
+    line-height: 17px;
+}
+#right .dialogue{
+    margin-top: 15px;
+}
+#right .dialogue .user1{
+    margin-bottom: 5px;
+}
+#right .dialogue .user2{
+    margin-top: 10px;
+}
+#right .dialogue .user .pic{
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    
+}
+#right .dialogue .user .Berry{
+    height: 60px;
+    float: left;
+    background-image: url("../image/12-15/images/Face1.png")
+}
+#right .dialogue .user .Jackson{
+    height: 110px;
+    float: left;
+    background-image: url("../image/12-15/images/Face8.png")
+}
+#right .dialogue .view .pic{
+    width: 130px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#right .dialogue .view .pic1{
+    background-image: url("../image/12-15/images/Photo1.png");
+    display: inline-block;
+}
+#right .dialogue .view .pic2{
+    background-image: url("../image/12-15/images/Photo2.png");
+    display: inline-block;
+}
+#right .dialogue .view .pic3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(106, 109, 109);
+    position: absolute;
+    bottom: 162px;
+    right: 440px;
+}
+#right .dialogue .view .pic4{
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-image: url("../image/12-15/images/open.png");
+    display: inline-block;
+    position: absolute;
+    bottom: 170px;
+    right: 465px;
+}
+#right .date{
+    font-size: 12px;
+    color: rgb(132, 147, 168);
+}
+#right .date:before{
+    content:"——————————————————————————";
+    margin-right: 10px;
+}
+#right .date:after{
+    content:"——————————————————————";
+    margin-left: 10px;
+}
+#right .message{
+    color: rgb(102, 170, 220);
+}
+.bottom .content .add{
+    width: 35px;
+    height: 37px;
+    background: rgb(227, 229, 235);
+    border-radius: 2px;
+    position: relative;
+    right: 45px;
+    display: inline-block;
+    float: left;
+}
+.bottom .content .addicon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 9px;
+    left: 9px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../image/12-15/images/Add\ icon.png");
+}
+.bottom .content .word{
+    height: 35px;
+    width: 700px;
+    border: rgb(179, 184, 192) 1px solid;
+    border-radius: 5px;
+}
+.bottom input{
+    width: 600px;
+    height: 22px;
+    position: relative;
+    right: 30px;
+    top: 5px;
+    border-style: none;
+}
